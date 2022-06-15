@@ -1,0 +1,82 @@
+/*All pages*/
+main{
+    margin-bottom: 3vh;
+}
+/*Home page*/
+.main-text-img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2%;
+    
+}
+/*Products page*/
+.main-content-products{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 3%;
+}
+.product-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+.product-card p {
+    width: 100%;
+}
+.product-card img{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+/*Products table page*/
+.main-content-products-table{
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: space-around;
+}
+.products-table{
+    border: 3px solid gray;
+    border-collapse: collapse;
+}
+.products-table th{
+    border: 2px solid gray;
+}
+.products-table thead tr{
+    background-color: gray;
+}
+.products-table tr{
+    background-color: rgb(177, 174, 174);
+}
+.products-table tr:nth-child(2n){
+    background-color:rgba(161, 161, 161, 0.61);
+}
+/*Sign Up page*/
+.card-sign-up{
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid gray;
+}
+.card-sign-up h3{
+    width: 100%;
+    text-align: center;
+}
+.form-sign-up{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-sign-up label{
+    height:min-content;
+}
+.form-sign-up input{
+    width: 100%;
+    margin-bottom: 1vh;
+}
